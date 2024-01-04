@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.header_menu {
+  display: flex;
+  flex-direction: row;
+  height: 72px;
+}
+
+.logo_wrapper {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Onest";
+  line-height: 120%;
+}
+
+.menu_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list_wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.list_wrapper li {
+  margin-right: 32px;
+  list-style: none;
+}
+
+.list_wrapper li a {
+  text-decoration: none;
+  font-family: "Lato";
+  color: #000000;
+}
+
+.link_four::after {
+  content: url(img/header/Vector.svg);
+  margin-left: 4px;
+  cursor: pointer;
+}
+
+.btn_header {
+  background-color: #fcbf49;
+  line-height: 150%;
+  padding: 8px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
